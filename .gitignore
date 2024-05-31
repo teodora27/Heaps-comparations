@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+CoadaVietii.sln
+CoadaVietii/CoadaVietii.vcxproj
+CoadaVietii/CoadaVietii.vcxproj.filters
