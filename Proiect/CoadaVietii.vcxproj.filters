@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\HeapSTLMultiset">
+      <UniqueIdentifier>{bcff69cb-56e4-4a9f-8a9d-5fdbcc484592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{48e387ba-9bcf-4db1-98a8-99fe0768edfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeapSTLPriorityqueue">
+      <UniqueIdentifier>{d013e168-0032-4ce6-83c0-d7f33a058e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinomialHeap">
+      <UniqueIdentifier>{2c04020b-cc81-42d7-bc8d-d3da95632541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FibonacciHeap">
+      <UniqueIdentifier>{906d9ba6-d6b5-42cd-ae30-bc41d7dcfb93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoadaVietii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSTLMultiset.cpp">
+      <Filter>Source Files\HeapSTLMultiset</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSTLPriorityqueue.cpp">
+      <Filter>Source Files\HeapSTLPriorityqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="BinomialHeap.cpp">
+      <Filter>Source Files\BinomialHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciHeap.cpp">
+      <Filter>Source Files\FibonacciHeap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeapSTLMultiset.h">
+      <Filter>Source Files\HeapSTLMultiset</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Source Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSTLPriorityqueue.h">
+      <Filter>Source Files\HeapSTLPriorityqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="BinomialHeap.h">
+      <Filter>Source Files\BinomialHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="FibonacciHeap.h">
+      <Filter>Source Files\FibonacciHeap</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
